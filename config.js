@@ -13,19 +13,19 @@ const environments = {
     httpPort: 3000,
     httpsPort: 3001,
     envName: 'development',
-    hashSecret: 's0m3S3cr3tH@sh'
+    hashSecret: 'secret'
   },
   staging: {
     httpPort: 3000,
     httpsPort: 3001,
     envName: 'staging',
-    hashSecret: 's0m3S3cr3tH@sh'
+    hashSecret: 'secret'
   },
   production: {
     httpPort: 5000,
     httpsPort: 5001,
     envName: 'production',
-    hashSecret: 's0m3S3cr3tH@sh'
+    hashSecret: 'secret'
   }
 }
 
